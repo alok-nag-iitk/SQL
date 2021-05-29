@@ -40,11 +40,12 @@ GROUP BY location
 
 Output
 
-location	    avg_popularity
-----------------------------------
-UK	            4.333
-USA             4.6
-India           7.5
-Switzerland     1
+
+location	avg_popularity
+---------------------------
+UK      	4.333
+USA	        4.6
+India	    7.5
+Switzerland 1
 
 */
