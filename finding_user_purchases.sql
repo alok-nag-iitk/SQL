@@ -24,8 +24,8 @@ WITH CTE_RETURN_CUSTOMER AS
 (
 SELECT 
     user_id, item, created_at,
-    lag(created_at, 1) OVER (PARTITION BY user_id ORDER BY created_at) as previous_purchase_at,     // previous purchase date
-    (created_at - lag(created_at, 1) OVER (PARTITION BY user_id ORDER BY created_at)) as no_of_days // time difference of two consecutive purchases in days
+    lag(created_at, 1) OVER (PARTITION BY user_id ORDER BY created_at) as previous_purchase_at,     -- previous purchase date
+    (created_at - lag(created_at, 1) OVER (PARTITION BY user_id ORDER BY created_at)) as no_of_days -- time difference of two consecutive purchases in days
 FROM amazon_transactions
 
 ) 
