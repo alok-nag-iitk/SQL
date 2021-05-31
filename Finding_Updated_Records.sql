@@ -42,7 +42,7 @@ order by id;
 
 
 
-
+/*
 
 id	first_name	last_name	department_id	current_salary
 ------------------------------------------------------------------------
@@ -56,3 +56,5 @@ id	first_name	last_name	department_id	current_salary
 8	Mercedes	Rodriguez	1005		61048
 9	Christy		Mitchell	1001		150000
 10	Sean		Crawford	1006		190000
+
+*/
