@@ -1,3 +1,5 @@
+/*
+
 Top Cool Votes
 --------------------
 
@@ -28,6 +30,10 @@ WHERE cool =(
                 from yelp_reviews 
             );
 
+/*
+
+output
+
 
 business_name	review_text
 ---------------------------------------------
@@ -38,3 +44,4 @@ Lunardis	This is the nicest grocery store in the city. I actually met my wife at
 		store while shopping for avocados.
 
 
+*/
