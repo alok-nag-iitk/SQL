@@ -1,3 +1,5 @@
+/*
+
 Order Details
 ----------------------------------------
 
@@ -27,6 +29,7 @@ order_quantity	int
 order_details	varchar
 order_cost	int
 
+*/
 
 
 
