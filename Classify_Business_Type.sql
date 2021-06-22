@@ -1,3 +1,5 @@
+/*
+
 Classify Business Type
 ---------------------------------------------
 
@@ -28,6 +30,8 @@ violation_id			varchar
 violation_description		varchar
 risk_category			varchar
 
+
+*/
 
 
 SELECT 
